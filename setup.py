@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="etherhound-core",
-    version="0.1.0b1",
+    version="0.1.1b1",
     description="EtherHound Core - Blockchain Event Scanner Server",
     long_description=open("readme.md", "r+").read(),
     author="SpicyPenguin",
@@ -14,7 +14,7 @@ setup(
         "pydantic",
         "typer"
     ],
-    python_requires=">=3.10",
+    python_requires=">=3.11",
     entry_points={
         "console_scripts": [
             "hound=houndcore.cli.__main__:app"
