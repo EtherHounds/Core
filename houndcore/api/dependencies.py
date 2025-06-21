@@ -5,11 +5,14 @@ from houndcore.app.scanners import Scanner, SubscriptionScanner
 from houndcore.logger import get_logger
 from houndcore.config import Config
 
-config = Config.from_env()
 scanner: Scanner = None
+
+def get_config() -> Config:
+    return Config.from_env()
 
 async def get_scanner() -> SubscriptionScanner:
     global scanner
+    config = get_config()
 
     if not scanner:
         

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "etherhound-core"
-version = "0.1.1b1"
+version = "0.1.2b1"
 description = "EtherHound Core - Blockchain Event Scanner Server"
 readme = "readme.md"
 authors = [{name = "Spicy Penguin"}]

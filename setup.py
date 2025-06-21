@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="etherhound-core",
-    version="0.1.1b1",
+    version="0.1.2b1",
     description="EtherHound Core - Blockchain Event Scanner Server",
     long_description=open("readme.md", "r+").read(),
     author="SpicyPenguin",
