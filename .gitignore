@@ -1,0 +1,13 @@
+**__pycache__
+**.venv
+**egg-info
+dist
+docs/_build
+docs/_static
+docs/_templates
+docs/make.bat
+docs/Makefile
+build
+.env
+.Dockerignore
+test.py
