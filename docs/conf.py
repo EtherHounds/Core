@@ -11,7 +11,7 @@ sys.path.insert(0, os.path.abspath(".."))
 project = 'EtherHoundCore'
 copyright = '2025, SpicyPenguin'
 author = 'SpicyPenguin'
-release = '0.1.1b1'
+release = '0.1.2b1'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration

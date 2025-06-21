@@ -15,8 +15,8 @@
   <p align="center">
     The core of EtherHound — fast, flexible Ethereum blockchain event tracker.
     <br />
-    <!--<a href="https://github.com/EtherHounds/Core"><strong>Explore the docs »</strong></a>
-    <br />
+    <a href="https://etherhounds-core.readthedocs.io/en/latest/index.html"><strong>Explore the docs »</strong></a>
+    <!--<br />
     <br />
     <a href="https://github.com/EtherHounds/Core">View Demo</a>
     &middot;
